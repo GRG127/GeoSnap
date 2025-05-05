@@ -1,16 +1,28 @@
+# Python cache and compiled files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Database files
 *.db
 *.sqlite3
+
+# Logs and temp files
 *.log
+*.tmp
+
+# Environment and configuration files
 *.env
+*.env*
 *.git
-.dockerignore
-Dockerfile
+.vscode/
+
+# SSL certificates and keys
 *.pem
 *.key
 *.crt
-.env*
-.vscode/
+
+# Docker files
+.dockerignore
+Dockerfile
